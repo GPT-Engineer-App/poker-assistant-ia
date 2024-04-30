@@ -13,6 +13,8 @@ const Index = () => {
         <Text fontSize="xl" textAlign="center">
           A sua ferramenta definitiva para melhorar no poker com a ajuda de inteligência artificial.
         </Text>
+        <Image src="https://images.unsplash.com/photo-1560963689-b5682b6440f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwb2tlciUyMGhhbmRzfGVufDB8fHx8MTcxNDUyMDk4Nnww&ixlib=rb-4.0.3&q=80&w=1080" alt="Poker Hands" boxSize="300px" m={4} />
+        <Image src="https://images.unsplash.com/photo-1582334202311-6c7ad84f8bfa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwb2tlciUyMHBsYXllcnN8ZW58MHx8fHwxNzE0NTIwOTg2fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="People Playing Poker" boxSize="300px" m={4} />
         <Box d="flex" gap={4}>
           <Button leftIcon={<FaRobot />} colorScheme="teal" variant="solid">
             Comece Agora
